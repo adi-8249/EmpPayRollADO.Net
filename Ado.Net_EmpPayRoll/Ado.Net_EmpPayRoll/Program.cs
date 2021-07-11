@@ -7,6 +7,8 @@ namespace Ado.Net_EmpPayRoll
         static void Main(string[] args)
         {
             Console.WriteLine("WelCome to EmpPayroll Using Ado.net!");
+            EmployeeRepo repo = new EmployeeRepo();
+            repo.GetAllEmployee();
         }
     }
 }
